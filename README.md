@@ -1,16 +1,22 @@
-# projects
+#🛠️ E-Warranty App
 
-A new Flutter project.
+A Flutter-based mobile application that simplifies the process of managing warranties by allowing users to activate and store their product warranties digitally. With the ability to scan a QR code to register warranties, users no longer need to worry about keeping physical warranty cards or losing track of their warranty periods.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+QR Code Scanning: Easily scan a QR code to activate the warranty for a product.
+Digital Warranty Storage: Store all your product warranties in one secure digital space.
+Warranty Details: View details such as activation date, expiration date, and warranty terms.
+Push Notifications: Receive reminders before your warranty expires.
+User Authentication: Secure login and registration using Firebase Authentication.
+Responsive Design: User-friendly design that adapts seamlessly to both Android and iOS devices.
+🛠️ Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+Frontend: Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Backend: Firebase (Authentication, Firestore, Cloud Storage)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+QR Code Integration: qr_code_scanner package for scanning and generating QR codes
+State Management: Provider
+
+Push Notifications: Firebase Cloud Messaging (FCM) for notifying users about warranty expiration
