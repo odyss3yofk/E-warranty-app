@@ -1,0 +1,104 @@
+//plugins {
+//    id "com.android.application"
+//    id "kotlin-android"
+//    id "dev.flutter.flutter-gradle-plugin"
+//    id "com.google.gms.google-services" // No need to apply it again
+//}
+//
+//android {
+//    namespace = "com.example.projects"
+//    compileSdk = flutter.compileSdkVersion
+//    ndkVersion = flutter.ndkVersion
+//
+//    compileOptions {
+//        sourceCompatibility = JavaVersion.VERSION_1_8
+//        targetCompatibility = JavaVersion.VERSION_1_8
+//    }
+//    def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
+//    if (flutterVersionCode == null) {
+//        flutterVersionCode = "1"
+//    }
+//
+//    def flutterVersionName = localProperties.getProperty("flutter.versionName")
+//    if (flutterVersionName == null) {
+//        flutterVersionName = "1.0"
+//    }
+//
+//    defaultConfig {
+//        applicationId = "com.example.projects"
+//        minSdk = flutter.minSdkVersion
+//        targetSdk = flutter.targetSdkVersion
+//        versionCode = 1
+//        versionName = "1.0"
+//    }
+//
+//    buildTypes {
+//        release {
+//            signingConfig = signingConfigs.debug
+//        }
+//    }
+//}
+//
+//repositories {
+//    google() // Required for Firebase and Google services
+//    mavenCentral() // Required for other dependencies
+//}
+//
+//dependencies {
+//    implementation platform('com.google.firebase:firebase-bom:33.1.2') // Firebase BoM
+//    implementation 'com.google.firebase:firebase-analytics' // Firebase Analytics
+//    implementation 'com.google.firebase:firebase-firestore' // Firestore Database
+//}
+//
+//flutter {
+//    source = "../.."
+//}
+
+
+
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services" // No need to apply it again
+}
+
+android {
+    namespace = "com.example.projects"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.projects"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = 1  // Directly set versionCode
+        versionName = "1.0"  // Directly set versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+repositories {
+    google() // Required for Firebase and Google services
+    mavenCentral() // Required for other dependencies
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.1.2') // Firebase BoM
+    implementation 'com.google.firebase:firebase-analytics' // Firebase Analytics
+    implementation 'com.google.firebase:firebase-firestore' // Firestore Database
+}
+
+flutter {
+    source = "../.."
+}

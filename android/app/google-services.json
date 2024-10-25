@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340851012900",
+    "project_id": "barhamthuri-warranty",
+    "storage_bucket": "barhamthuri-warranty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340851012900:android:84ed1a8be88abe9befefb1",
+        "android_client_info": {
+          "package_name": "com.example.projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQEkC_1U2ZHJI2nY-4EIIl6YpouRB2iR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
