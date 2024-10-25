@@ -10,6 +10,7 @@ Warranty Details: View details such as activation date, expiration date, and war
 Push Notifications: Receive reminders before your warranty expires.
 User Authentication: Secure login and registration using Firebase Authentication.
 Responsive Design: User-friendly design that adapts seamlessly to both Android and iOS devices.
+
 🛠️ Tech Stack
 
 Frontend: Flutter
